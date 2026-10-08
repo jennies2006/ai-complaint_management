@@ -1,20 +1,20 @@
 {
   "category_model": {
-    "accuracy": 0.8287,
-    "precision": 0.8671,
-    "recall": 0.8368,
-    "f1_macro": 0.8319
+    "accuracy": 0.8244,
+    "precision": 0.8629,
+    "recall": 0.8305,
+    "f1_macro": 0.826
   },
   "priority_model": {
-    "accuracy": 0.5871,
-    "precision": 0.5793,
-    "recall": 0.5871,
-    "f1_macro": 0.5825
+    "accuracy": 0.6317,
+    "precision": 0.6335,
+    "recall": 0.6528,
+    "f1_macro": 0.6323
   },
   "category_model_features": "sentence-transformers:all-MiniLM-L6-v2",
   "priority_model_features": "sentiment_score + 5 urgency flags",
   "trained_on_rows": 1375,
-  "tested_on_rows": 356,
+  "tested_on_rows": 353,
   "seed_overlap": 0,
   "urgency_flags_order": [
     "urg_refund_demand",
