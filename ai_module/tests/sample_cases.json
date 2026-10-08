@@ -1,0 +1,138 @@
+[
+  {
+    "id": "tone_warranty_calm",
+    "text": "How do I register the product for extended warranty?",
+    "pair_group": "warranty",
+    "expect_priority_relative": "lower"
+  },
+  {
+    "id": "tone_warranty_urgent",
+    "text": "How do I register the product for extended warranty? I've asked three times! Refund now!",
+    "pair_group": "warranty",
+    "expect_priority_relative": "higher"
+  },
+  {
+    "id": "tone_delay_calm",
+    "text": "My package is a bit late, could you check the tracking?",
+    "pair_group": "delay",
+    "expect_priority_relative": "lower"
+  },
+  {
+    "id": "tone_delay_urgent",
+    "text": "This is the THIRD time my package is late! I want a refund NOW!",
+    "pair_group": "delay",
+    "expect_priority_relative": "higher"
+  },
+  {
+    "id": "tone_invoice_calm",
+    "text": "Just wondering about my invoice",
+    "pair_group": "invoice",
+    "expect_priority_relative": "lower"
+  },
+  {
+    "id": "tone_invoice_urgent",
+    "text": "I need my invoice immediately, this is the THIRD time I've asked",
+    "pair_group": "invoice",
+    "expect_priority_relative": "higher"
+  },
+  {
+    "id": "tone_damage_calm",
+    "text": "The package arrived with a small dent on the corner.",
+    "pair_group": "damage",
+    "expect_priority_relative": "lower"
+  },
+  {
+    "id": "tone_damage_urgent",
+    "text": "The package arrived completely SHATTERED! This is unacceptable and I demand compensation!",
+    "pair_group": "damage",
+    "expect_priority_relative": "higher"
+  },
+  {
+    "id": "cat_product_quality",
+    "text": "The blender started smoking after the second use.",
+    "expect_category": "Product Quality"
+  },
+  {
+    "id": "cat_payments",
+    "text": "I was charged twice for the same order.",
+    "expect_category": "Payments & Refunds"
+  },
+  {
+    "id": "cat_returns",
+    "text": "I received the wrong color variant.",
+    "expect_category": "Returns & Replacements"
+  },
+  {
+    "id": "cat_delivery",
+    "text": "My package says delivered but it never arrived.",
+    "expect_category": "Delivery"
+  },
+  {
+    "id": "cat_other",
+    "text": "What are your customer service hours?",
+    "expect_category": "Other"
+  },
+  {
+    "id": "pri_low",
+    "text": "Please share the warranty card for this product.",
+    "expect_priority": "Low"
+  },
+  {
+    "id": "pri_medium",
+    "text": "The discount shown at checkout was not applied to my card.",
+    "expect_priority": "Medium"
+  },
+  {
+    "id": "pri_high",
+    "text": "I received the wrong color variant.",
+    "expect_priority": "High"
+  },
+  {
+    "id": "pri_critical",
+    "text": "I want a refund NOW! This is the third time this has happened!",
+    "expect_priority": "Critical"
+  },
+  {
+    "id": "urgent_all_caps",
+    "text": "URGENT!!! MY ORDER IS MISSING AND NO ONE IS RESPONDING!!!",
+    "expect_urgency_contains": [
+      "all caps",
+      "exclamation",
+      "urgency word"
+    ]
+  },
+  {
+    "id": "urgent_refund_demand",
+    "text": "I want my money back for this defective unit.",
+    "expect_urgency_contains": [
+      "refund demand"
+    ]
+  },
+  {
+    "id": "urgent_repeat_issue",
+    "text": "This is the third time I'm contacting you about the same issue.",
+    "expect_urgency_contains": [
+      "repeat issue"
+    ]
+  },
+  {
+    "id": "urgent_clean",
+    "text": "Just checking on my order status.",
+    "expect_urgency_contains": []
+  },
+  {
+    "id": "err_empty",
+    "text": "",
+    "expect_status": "error"
+  },
+  {
+    "id": "err_whitespace",
+    "text": "     ",
+    "expect_status": "error"
+  },
+  {
+    "id": "edge_long_input",
+    "text": "My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. My order is late. ",
+    "expect_status": "ok"
+  }
+]
