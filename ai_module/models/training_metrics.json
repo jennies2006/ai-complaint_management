@@ -1,0 +1,26 @@
+{
+  "category_model": {
+    "accuracy": 0.8113,
+    "precision": 0.8501,
+    "recall": 0.8209,
+    "f1_macro": 0.8156
+  },
+  "priority_model": {
+    "accuracy": 0.538,
+    "precision": 0.5369,
+    "recall": 0.5757,
+    "f1_macro": 0.5489
+  },
+  "category_model_features": "sentence-transformers:all-MiniLM-L6-v2",
+  "priority_model_features": "sentiment_score + 5 urgency flags",
+  "trained_on_rows": 1373,
+  "tested_on_rows": 355,
+  "seed_overlap": 0,
+  "urgency_flags_order": [
+    "urg_refund_demand",
+    "urg_repeat_issue",
+    "urg_all_caps",
+    "urg_exclamation",
+    "urg_urgency_word"
+  ]
+}
